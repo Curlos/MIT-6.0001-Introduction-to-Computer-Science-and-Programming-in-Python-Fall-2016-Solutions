@@ -22,8 +22,14 @@ def get_permutations(sequence):
     Note: depending on your implementation, you may return the permutations in
     a different order than what is listed here.
     '''
+    permutations = []
 
-    pass #delete this line and replace with your code here
+    def helper(sequence, permutations):
+        if len(sequence) == 1:
+            return permutations
+        
+        helper()
+    
 
 if __name__ == '__main__':
 #    #EXAMPLE
